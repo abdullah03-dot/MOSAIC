@@ -1,0 +1,22 @@
+{
+  "case_id": "CASE_AF_RANSOMWARE_001",
+  "case_name": "AfricanFalls Corporate Ransomware — Phobos",
+  "case_type": "ransomware",
+  "jurisdiction": "UAE",
+  "description": "A corporate Windows endpoint (DESKTOP-SDN1RPT) was compromised via RDP brute force from external IP 203.0.113.47. Following initial access, the attacker performed lateral movement via SMB, exfiltrated approximately 1.7 GB of data, then deployed Phobos v2.9.1 ransomware, encrypting 14,872 files. Finance department reported encrypted files at 06:47 UTC. Suspected threat actor: financially motivated ransomware group.",
+  "disk_image_path": null,
+  "pcap_path": null,
+  "memory_dump_path": null,
+  "log_paths": [],
+  "known_hashes": ["deadbeef" + "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"],
+  "known_ips": ["203.0.113.47", "10.0.0.45"],
+  "known_domains": [],
+  "investigation_questions": [
+    "Which host was patient zero?",
+    "What was the initial access vector?",
+    "What data was exfiltrated before encryption?",
+    "What ransomware family and version was deployed?",
+    "What is the attacker's C2 infrastructure?",
+    "Which UAE Federal Decree-Law 34/2021 articles apply?"
+  ]
+}

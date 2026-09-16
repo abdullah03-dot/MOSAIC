@@ -1,0 +1,24 @@
+{
+  "case_id": "CASE_AF_INSIDER_001",
+  "case_name": "AfricanFalls — Insider Threat and Data Exfiltration",
+  "case_type": "insider_threat",
+  "jurisdiction": "UAE",
+  "description": "A Linux workstation belonging to user 'Ann' shows suspicious activity. The system administrator flagged unusual outbound traffic and file deletions. Evidence indicates the user accessed restricted personnel files, installed steganography tools (OpenStego), embedded exfiltrated data in an image file (AnnualReport.jpg), emailed the stego image to ann_secretary@gmail.com, then deleted forensic traces including bash history.",
+  "disk_image_path": null,
+  "pcap_path": null,
+  "memory_dump_path": null,
+  "log_paths": [],
+  "known_hashes": [],
+  "known_ips": [],
+  "known_domains": [
+    "ann_secretary@gmail.com"
+  ],
+  "investigation_questions": [
+    "What files did the suspect access and when?",
+    "What data exfiltration method was used?",
+    "What anti-forensic techniques were employed?",
+    "What is the full timeline of insider threat activity?",
+    "What external parties received the exfiltrated data?",
+    "Is there sufficient evidence for UAE cybercrime charges?"
+  ]
+}

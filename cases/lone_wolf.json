@@ -1,0 +1,20 @@
+{
+  "case_id": "CASE_LONEWOLF_001",
+  "case_name": "NIST CFReDS — Lone Wolf Extremism (Synthetic)",
+  "case_type": "extremism",
+  "jurisdiction": "UAE",
+  "description": "A workstation seized from a suspected lone-wolf threat actor shows evidence of encrypted communications, extremist research, and planning activity. VeraCrypt containers, Tor Browser usage, and an encrypted USB device indicate deliberate anti-forensic measures. Manifesto drafts were partially recovered from unallocated space. Investigation must establish intent, communication channels, and extent of planning.",
+  "disk_image_path": null,
+  "pcap_path": null,
+  "memory_dump_path": null,
+  "log_paths": [],
+  "known_hashes": [],
+  "known_ips": [],
+  "known_domains": [],
+  "investigation_questions": [
+    "What evidence of planning activity exists?",
+    "What encrypted containers or anti-forensic tools were used?",
+    "What external communication channels were used?",
+    "Is there sufficient evidence of threat intent for legal action?"
+  ]
+}

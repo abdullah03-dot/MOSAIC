@@ -1,0 +1,40 @@
+{
+  "case_id": "CASE_NIST_HACKING_001",
+  "case_name": "NIST CFReDS Hacking Case — Mr. Evil",
+  "case_type": "hacking",
+  "jurisdiction": "UAE",
+  "description": "A Windows XP SP2 workstation seized from suspect 'Mr. Evil' (IP 192.168.1.111) shows evidence of systematic network intrusion. The suspect installed multiple hacking tools including NetBus RAT, Cain and Abel password cracker, nmap network scanner, and mIRC IRC client. Evidence indicates remote access trojans were deployed on victim machines, passwords were stolen via brute force, and stolen credentials were stored locally. IRC chat logs confirm malicious intent. An encrypted archive (evil.zip) on the Desktop may contain further evidence. This case is drawn from the NIST CFReDS DC3 Challenge (published ground truth: cfreds.nist.gov/Hacking_Case.html).",
+  "disk_image_path": null,
+  "_comment_disk_image_path": "Users can download the corresponding hacking case disk image from NIST CFREDS.",
+  "pcap_path": null,
+  "memory_dump_path": null,
+  "log_paths": [],
+  "known_hashes": [],
+  "known_ips": [
+    "192.168.1.111",
+    "192.168.1.104"
+  ],
+  "known_domains": [
+    "irc.efnet.net"
+  ],
+  "investigation_questions": [
+    "What hacking tools were installed on the suspect workstation?",
+    "Which remote access trojan was used and what hosts were compromised?",
+    "What password-cracking activity is evidenced?",
+    "What data was stolen and where is it stored?",
+    "What does the IRC activity confirm about intent?",
+    "What UAE cybercrime statutes apply to these actions?"
+  ],
+  "case_metadata": {
+    "source": "NIST CFReDS DC3 Hacking Case",
+    "evidence_url": "https://cfreds.nist.gov/Hacking_Case.html",
+    "disk_image": "hacking-dd.zip (6.8 GB, available from cfreds.nist.gov)",
+    "os": "Windows XP SP2",
+    "difficulty": "intermediate",
+    "expected_confidence_range": [
+      0.85,
+      0.95
+    ],
+    "active_probing_expected": false
+  }
+}

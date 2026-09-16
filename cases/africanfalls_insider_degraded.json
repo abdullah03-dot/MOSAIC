@@ -1,0 +1,19 @@
+{
+  "case_id": "CASE_AF_INSIDER_DEGRADED",
+  "case_name": "AfricanFalls — Insider Threat (Disk+Logs Only — Network Unavailable)",
+  "case_type": "insider_threat",
+  "jurisdiction": "UAE",
+  "description": "Same as AfricanFalls insider case but PCAP evidence unavailable (network tap was not in place at time of incident). Investigation must proceed with disk artefacts and system logs only. Active probing expected to trigger due to missing network modality.",
+  "disk_image_path": null,
+  "pcap_path": null,
+  "memory_dump_path": null,
+  "log_paths": [],
+  "known_hashes": [],
+  "known_ips": [],
+  "known_domains": [],
+  "investigation_questions": [
+    "Can steganographic exfiltration be established from disk and log evidence alone?",
+    "What anti-forensic techniques were used?",
+    "Can the exfiltration destination be identified without network capture?"
+  ]
+}
